@@ -1,0 +1,121 @@
+.container {
+  display: inline-flex;
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.875rem;
+  border: 1px solid #edf2f7;
+  /* background: #fff; */
+}
+
+.gridWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.625rem;
+  /* border: 1px solid red; */
+  width: 100%;
+}
+
+.iconWrapper {
+  position: relative;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.iconBox {
+  width: 2.5rem;
+  height: 2.5rem;
+  flex-shrink: 0;
+  border-radius: 50%;
+  border: 0.714px solid #e6e6e6;
+  display: grid;
+  place-content: center;
+}
+
+.chart {
+  width: 6.5rem;
+  height: 2rem;
+  flex-shrink: 0;
+}
+
+.head {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.3125rem;
+}
+
+.head h3 {
+  color: #898989;
+
+  /* Body Text/Plus Jakarta Sans/Medium/18 */
+  /* font-family: "Plus Jakarta Sans"; */
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.625rem; /* 144.444% */
+}
+
+.head p {
+  /* color: #3a3f51; */
+
+  /* Heading Text/Plus Jakarta Sans/SemiBold/24 */
+  /* font-family: "Plus Jakarta Sans"; */
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 2rem; /* 133.333% */
+}
+
+.body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* border: 1px solid red; */
+  gap: 0.625rem;
+}
+
+.badge {
+  display: flex;
+  padding: 0.25rem 0.5rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.badgeImg {
+  display: flex;
+  width: 0.75rem;
+  height: 0.75rem;
+  padding: 0.21875rem 0.09375rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.badgeText {
+  color: #34caa5;
+
+  /* Body Text/Plus Jakarta Sans/Medium/12 */
+  /* font-family: "Plus Jakarta Sans"; */
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1rem; /* 133.333% */
+}
+
+.green {
+  border-radius: 62.5rem;
+  background: rgba(52, 202, 165, 0.12);
+}
+
+.bodyText {
+  color: #fff;
+  /* font-family: Inter; */
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

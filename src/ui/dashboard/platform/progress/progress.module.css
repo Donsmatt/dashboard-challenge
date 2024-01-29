@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+  min-width: 100%;
+}
+
+.title {
+  /* color: var(--Black, #22242c); */
+
+  /* Body Text/Plus Jakarta Sans/SemiBold/18 */
+  /* font-family: "Plus Jakarta Sans"; */
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.625rem; /* 144.444% */
+}
+
+.values {
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 1px solid red; */
+  /* width: 100%; */
+}
+
+.value {
+  /* color: var(--Neutral-600, #525252); */
+
+  /* Body Text/Plus Jakarta Sans/Regular/18 */
+  /* font-family: "Plus Jakarta Sans"; */
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.625rem; /* 144.444% */
+}

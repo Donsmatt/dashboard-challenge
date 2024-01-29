@@ -1,0 +1,47 @@
+.container {
+  display: inline-flex;
+  padding: 1rem 1rem 2rem 1.25rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.25rem;
+  border-radius: 0.5rem;
+  border: 1px solid #edf2f7;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+}
+
+.title {
+  /* color: #26282c; */
+
+  /* Body Text/Plus Jakarta Sans/SemiBold/18 */
+  /* font-family: "Plus Jakarta Sans"; */
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.625rem; /* 144.444% */
+}
+
+.expand {
+  color: #34caa5;
+  text-align: center;
+
+  /* Body Text/Plus Jakarta Sans/Medium/18 */
+  /* font-family: "Plus Jakarta Sans"; */
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.625rem; /* 144.444% */
+}
+
+.body {
+  display: flex;
+  width: 28.25rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.25rem;
+}

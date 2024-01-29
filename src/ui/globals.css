@@ -1,0 +1,36 @@
+:root {
+  /* COLORS */
+  --primary: #bb372f;
+  --secondary: #3a3f51;
+  --success: #00ac56;
+  --error: #ff1f7d;
+  --warning: #f5bf3d;
+  --white: #ffffff;
+  --bg: #fdfdfd;
+
+  /* TYPOGRAPHY */
+  --fs-sm: 20px
+}
+
+* {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--secondary);
+  /* color: var(--secondary); */
+  color: var(--white);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto 1fr;
+}

@@ -1,0 +1,67 @@
+.container {
+  position: sticky;
+  top: 0;
+  display: flex;
+  width: 5rem;
+  padding: 1.25rem 0rem;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.625rem;
+  flex-shrink: 0;
+  height: 100dvh;
+  border-right: 1px solid var(--white);
+}
+
+.top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.25rem;
+  align-self: stretch;
+}
+
+.logo,
+.img,
+.btn {
+  position: relative;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.img {
+  display: flex;
+  width: 5rem;
+  height: 2.5rem;
+  padding: 0.625rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+}
+
+.theme {
+  /* background-color: var(--white); */
+  border-radius: 6.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.active {
+  background-color: var(--success);
+}
+
+.bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.25rem;
+  align-self: stretch;
+}
